@@ -1,5 +1,10 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -22,6 +27,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 50px;
+}
+.actions {
+  display: flex;
+  margin: 1em;
+}
+
+.actions .btn {
+  margin: 1em;
+  height: 40px;
+  background-color: #4285f4;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:disabled {
+  background-color: gray;
 }
 
 .App-link {
